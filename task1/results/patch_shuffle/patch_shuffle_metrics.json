@@ -1,0 +1,49 @@
+{
+  "settings": {
+    "grid": [
+      4,
+      4
+    ],
+    "seed": 6304,
+    "permutation": "one deterministic non-identity permutation per image",
+    "test_images": 500
+  },
+  "results": {
+    "resnet50_head": {
+      "clean_accuracy": 0.9739999771118164,
+      "patch_shuffle_accuracy": 0.8840000033378601,
+      "accuracy_change": -0.0899999737739563,
+      "accuracy_drop": 0.0899999737739563,
+      "prediction_consistency": 0.8999999761581421,
+      "macro_f1": 0.884456138235613,
+      "mean_maximum_confidence": 0.8661588430404663
+    },
+    "vit_b_16_head": {
+      "clean_accuracy": 0.9779999852180481,
+      "patch_shuffle_accuracy": 0.9100000262260437,
+      "accuracy_change": -0.0679999589920044,
+      "accuracy_drop": 0.0679999589920044,
+      "prediction_consistency": 0.9179999828338623,
+      "macro_f1": 0.9095401581452471,
+      "mean_maximum_confidence": 0.8521473407745361
+    },
+    "clip_vit_b_32_head": {
+      "clean_accuracy": 0.984000027179718,
+      "patch_shuffle_accuracy": 0.8339999914169312,
+      "accuracy_change": -0.15000003576278687,
+      "accuracy_drop": 0.15000003576278687,
+      "prediction_consistency": 0.8360000252723694,
+      "macro_f1": 0.8333724765762252,
+      "mean_maximum_confidence": 0.17232762277126312
+    },
+    "clip_zero_shot": {
+      "clean_accuracy": 0.9800000190734863,
+      "patch_shuffle_accuracy": 0.8420000076293945,
+      "accuracy_change": -0.1380000114440918,
+      "accuracy_drop": 0.1380000114440918,
+      "prediction_consistency": 0.843999981880188,
+      "macro_f1": 0.842035562723269,
+      "mean_maximum_confidence": 0.8308886885643005
+    }
+  }
+}

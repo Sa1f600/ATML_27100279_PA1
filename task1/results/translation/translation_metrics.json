@@ -1,0 +1,312 @@
+{
+  "settings": {
+    "displacements": [
+      0,
+      8,
+      16,
+      32
+    ],
+    "directions": [
+      "up",
+      "down",
+      "left",
+      "right"
+    ],
+    "padding": "reflection",
+    "test_images": 500
+  },
+  "results": {
+    "resnet50_head": {
+      "0": {
+        "accuracy": 0.9739999771118164,
+        "consistency": 1.0,
+        "directions": {}
+      },
+      "8": {
+        "accuracy": 0.9714999943971634,
+        "consistency": 0.9909999966621399,
+        "directions": {
+          "up": {
+            "accuracy": 0.9739999771118164,
+            "consistency": 0.9940000176429749
+          },
+          "down": {
+            "accuracy": 0.972000002861023,
+            "consistency": 0.9919999837875366
+          },
+          "left": {
+            "accuracy": 0.972000002861023,
+            "consistency": 0.9879999756813049
+          },
+          "right": {
+            "accuracy": 0.9679999947547913,
+            "consistency": 0.9900000095367432
+          }
+        }
+      },
+      "16": {
+        "accuracy": 0.9680000096559525,
+        "consistency": 0.9884999841451645,
+        "directions": {
+          "up": {
+            "accuracy": 0.9700000286102295,
+            "consistency": 0.9919999837875366
+          },
+          "down": {
+            "accuracy": 0.9679999947547913,
+            "consistency": 0.9879999756813049
+          },
+          "left": {
+            "accuracy": 0.9679999947547913,
+            "consistency": 0.9879999756813049
+          },
+          "right": {
+            "accuracy": 0.9660000205039978,
+            "consistency": 0.9860000014305115
+          }
+        }
+      },
+      "32": {
+        "accuracy": 0.9650000035762787,
+        "consistency": 0.9849999994039536,
+        "directions": {
+          "up": {
+            "accuracy": 0.9679999947547913,
+            "consistency": 0.984000027179718
+          },
+          "down": {
+            "accuracy": 0.9639999866485596,
+            "consistency": 0.9879999756813049
+          },
+          "left": {
+            "accuracy": 0.9660000205039978,
+            "consistency": 0.9800000190734863
+          },
+          "right": {
+            "accuracy": 0.9620000123977661,
+            "consistency": 0.9879999756813049
+          }
+        }
+      }
+    },
+    "vit_b_16_head": {
+      "0": {
+        "accuracy": 0.9779999852180481,
+        "consistency": 1.0,
+        "directions": {}
+      },
+      "8": {
+        "accuracy": 0.9804999977350235,
+        "consistency": 0.986500009894371,
+        "directions": {
+          "up": {
+            "accuracy": 0.9819999933242798,
+            "consistency": 0.9879999756813049
+          },
+          "down": {
+            "accuracy": 0.984000027179718,
+            "consistency": 0.9900000095367432
+          },
+          "left": {
+            "accuracy": 0.9779999852180481,
+            "consistency": 0.984000027179718
+          },
+          "right": {
+            "accuracy": 0.9779999852180481,
+            "consistency": 0.984000027179718
+          }
+        }
+      },
+      "16": {
+        "accuracy": 0.9749999940395355,
+        "consistency": 0.988999992609024,
+        "directions": {
+          "up": {
+            "accuracy": 0.9739999771118164,
+            "consistency": 0.9900000095367432
+          },
+          "down": {
+            "accuracy": 0.9800000190734863,
+            "consistency": 0.9860000014305115
+          },
+          "left": {
+            "accuracy": 0.9739999771118164,
+            "consistency": 0.9919999837875366
+          },
+          "right": {
+            "accuracy": 0.972000002861023,
+            "consistency": 0.9879999756813049
+          }
+        }
+      },
+      "32": {
+        "accuracy": 0.965499997138977,
+        "consistency": 0.9784999936819077,
+        "directions": {
+          "up": {
+            "accuracy": 0.9620000123977661,
+            "consistency": 0.9739999771118164
+          },
+          "down": {
+            "accuracy": 0.972000002861023,
+            "consistency": 0.9739999771118164
+          },
+          "left": {
+            "accuracy": 0.9679999947547913,
+            "consistency": 0.9860000014305115
+          },
+          "right": {
+            "accuracy": 0.9599999785423279,
+            "consistency": 0.9800000190734863
+          }
+        }
+      }
+    },
+    "clip_vit_b_32_head": {
+      "0": {
+        "accuracy": 0.984000027179718,
+        "consistency": 1.0,
+        "directions": {}
+      },
+      "8": {
+        "accuracy": 0.9835000038146973,
+        "consistency": 0.9925000071525574,
+        "directions": {
+          "up": {
+            "accuracy": 0.9819999933242798,
+            "consistency": 0.9900000095367432
+          },
+          "down": {
+            "accuracy": 0.9860000014305115,
+            "consistency": 0.9940000176429749
+          },
+          "left": {
+            "accuracy": 0.9800000190734863,
+            "consistency": 0.9919999837875366
+          },
+          "right": {
+            "accuracy": 0.9860000014305115,
+            "consistency": 0.9940000176429749
+          }
+        }
+      },
+      "16": {
+        "accuracy": 0.9785000085830688,
+        "consistency": 0.9864999949932098,
+        "directions": {
+          "up": {
+            "accuracy": 0.9760000109672546,
+            "consistency": 0.9919999837875366
+          },
+          "down": {
+            "accuracy": 0.9800000190734863,
+            "consistency": 0.9879999756813049
+          },
+          "left": {
+            "accuracy": 0.9739999771118164,
+            "consistency": 0.9819999933242798
+          },
+          "right": {
+            "accuracy": 0.984000027179718,
+            "consistency": 0.984000027179718
+          }
+        }
+      },
+      "32": {
+        "accuracy": 0.9740000069141388,
+        "consistency": 0.9860000014305115,
+        "directions": {
+          "up": {
+            "accuracy": 0.9700000286102295,
+            "consistency": 0.9819999933242798
+          },
+          "down": {
+            "accuracy": 0.9739999771118164,
+            "consistency": 0.9900000095367432
+          },
+          "left": {
+            "accuracy": 0.9760000109672546,
+            "consistency": 0.984000027179718
+          },
+          "right": {
+            "accuracy": 0.9760000109672546,
+            "consistency": 0.9879999756813049
+          }
+        }
+      }
+    },
+    "clip_zero_shot": {
+      "0": {
+        "accuracy": 0.9800000190734863,
+        "consistency": 1.0,
+        "directions": {}
+      },
+      "8": {
+        "accuracy": 0.9780000001192093,
+        "consistency": 0.9864999949932098,
+        "directions": {
+          "up": {
+            "accuracy": 0.9779999852180481,
+            "consistency": 0.9879999756813049
+          },
+          "down": {
+            "accuracy": 0.9779999852180481,
+            "consistency": 0.9879999756813049
+          },
+          "left": {
+            "accuracy": 0.9760000109672546,
+            "consistency": 0.9860000014305115
+          },
+          "right": {
+            "accuracy": 0.9800000190734863,
+            "consistency": 0.984000027179718
+          }
+        }
+      },
+      "16": {
+        "accuracy": 0.9769999980926514,
+        "consistency": 0.9830000251531601,
+        "directions": {
+          "up": {
+            "accuracy": 0.9739999771118164,
+            "consistency": 0.9800000190734863
+          },
+          "down": {
+            "accuracy": 0.9739999771118164,
+            "consistency": 0.984000027179718
+          },
+          "left": {
+            "accuracy": 0.9760000109672546,
+            "consistency": 0.984000027179718
+          },
+          "right": {
+            "accuracy": 0.984000027179718,
+            "consistency": 0.984000027179718
+          }
+        }
+      },
+      "32": {
+        "accuracy": 0.9665000140666962,
+        "consistency": 0.9825000017881393,
+        "directions": {
+          "up": {
+            "accuracy": 0.9660000205039978,
+            "consistency": 0.9800000190734863
+          },
+          "down": {
+            "accuracy": 0.9660000205039978,
+            "consistency": 0.9860000014305115
+          },
+          "left": {
+            "accuracy": 0.9660000205039978,
+            "consistency": 0.9819999933242798
+          },
+          "right": {
+            "accuracy": 0.9679999947547913,
+            "consistency": 0.9819999933242798
+          }
+        }
+      }
+    }
+  }
+}

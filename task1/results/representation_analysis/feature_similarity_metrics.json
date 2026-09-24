@@ -1,0 +1,534 @@
+{
+  "settings": {
+    "metric": "paired cosine similarity",
+    "translation_displacements": [
+      0,
+      8,
+      16,
+      32
+    ],
+    "translation_directions": [
+      "up",
+      "down",
+      "left",
+      "right"
+    ],
+    "cue_clean_counterpart": "content image",
+    "visualization_translation": "32 pixels right"
+  },
+  "results": {
+    "resnet50": {
+      "grayscale": {
+        "samples": 500,
+        "mean": 0.7891114354133606,
+        "standard_deviation": 0.09745635092258453,
+        "median": 0.7987896800041199,
+        "minimum": 0.2995022237300873,
+        "maximum": 1.0
+      },
+      "cue conflict": {
+        "samples": 212,
+        "mean": 0.5279024243354797,
+        "standard_deviation": 0.15344499051570892,
+        "median": 0.5329736471176147,
+        "minimum": 0.15677396953105927,
+        "maximum": 0.9118555784225464
+      },
+      "patch shuffle": {
+        "samples": 500,
+        "mean": 0.7152240872383118,
+        "standard_deviation": 0.07355763763189316,
+        "median": 0.7170482873916626,
+        "minimum": 0.4898183345794678,
+        "maximum": 0.8843686580657959
+      },
+      "translation": {
+        "0": {
+          "average_across_directions": {
+            "samples": 500,
+            "mean": 1.0,
+            "standard_deviation": 0.0,
+            "median": 1.0,
+            "minimum": 1.0,
+            "maximum": 1.0
+          },
+          "directions": {}
+        },
+        "8": {
+          "average_across_directions": {
+            "samples": 2000,
+            "mean": 0.9685215950012207,
+            "standard_deviation": 0.01776873506605625,
+            "median": 0.9723861813545227,
+            "minimum": 0.8351693749427795,
+            "maximum": 0.994437575340271
+          },
+          "directions": {
+            "up": {
+              "samples": 500,
+              "mean": 0.9691991209983826,
+              "standard_deviation": 0.014394053258001804,
+              "median": 0.972021222114563,
+              "minimum": 0.8672244548797607,
+              "maximum": 0.9908636212348938
+            },
+            "down": {
+              "samples": 500,
+              "mean": 0.9655214548110962,
+              "standard_deviation": 0.018484672531485558,
+              "median": 0.9693742990493774,
+              "minimum": 0.8351693749427795,
+              "maximum": 0.9934689998626709
+            },
+            "left": {
+              "samples": 500,
+              "mean": 0.9737831354141235,
+              "standard_deviation": 0.013910329900681973,
+              "median": 0.976767361164093,
+              "minimum": 0.9109407067298889,
+              "maximum": 0.994437575340271
+            },
+            "right": {
+              "samples": 500,
+              "mean": 0.9655826091766357,
+              "standard_deviation": 0.021789003163576126,
+              "median": 0.9715481996536255,
+              "minimum": 0.8553095459938049,
+              "maximum": 0.9931385517120361
+            }
+          }
+        },
+        "16": {
+          "average_across_directions": {
+            "samples": 2000,
+            "mean": 0.952494740486145,
+            "standard_deviation": 0.02930663712322712,
+            "median": 0.9600842595100403,
+            "minimum": 0.7764448523521423,
+            "maximum": 0.9918549060821533
+          },
+          "directions": {
+            "up": {
+              "samples": 500,
+              "mean": 0.9559194445610046,
+              "standard_deviation": 0.023918788880109787,
+              "median": 0.9609902501106262,
+              "minimum": 0.7926493287086487,
+              "maximum": 0.9883363246917725
+            },
+            "down": {
+              "samples": 500,
+              "mean": 0.9493117928504944,
+              "standard_deviation": 0.03022390604019165,
+              "median": 0.9559417963027954,
+              "minimum": 0.7764448523521423,
+              "maximum": 0.9880421757698059
+            },
+            "left": {
+              "samples": 500,
+              "mean": 0.9607911109924316,
+              "standard_deviation": 0.022168532013893127,
+              "median": 0.9662151336669922,
+              "minimum": 0.8258335590362549,
+              "maximum": 0.9918549060821533
+            },
+            "right": {
+              "samples": 500,
+              "mean": 0.9439566731452942,
+              "standard_deviation": 0.0359845869243145,
+              "median": 0.9549822807312012,
+              "minimum": 0.796998143196106,
+              "maximum": 0.9889329671859741
+            }
+          }
+        },
+        "32": {
+          "average_across_directions": {
+            "samples": 2000,
+            "mean": 0.9327362775802612,
+            "standard_deviation": 0.04218636080622673,
+            "median": 0.9430527091026306,
+            "minimum": 0.6762245297431946,
+            "maximum": 0.9966932535171509
+          },
+          "directions": {
+            "up": {
+              "samples": 500,
+              "mean": 0.9380038380622864,
+              "standard_deviation": 0.039006300270557404,
+              "median": 0.9473076462745667,
+              "minimum": 0.7343845367431641,
+              "maximum": 0.9940060377120972
+            },
+            "down": {
+              "samples": 500,
+              "mean": 0.932677149772644,
+              "standard_deviation": 0.04487986117601395,
+              "median": 0.9450352787971497,
+              "minimum": 0.6762245297431946,
+              "maximum": 0.9913967847824097
+            },
+            "left": {
+              "samples": 500,
+              "mean": 0.9402220249176025,
+              "standard_deviation": 0.035926640033721924,
+              "median": 0.9486035108566284,
+              "minimum": 0.7402830719947815,
+              "maximum": 0.9947062730789185
+            },
+            "right": {
+              "samples": 500,
+              "mean": 0.9200422167778015,
+              "standard_deviation": 0.0452483594417572,
+              "median": 0.9305105209350586,
+              "minimum": 0.7441251277923584,
+              "maximum": 0.9966932535171509
+            }
+          }
+        }
+      }
+    },
+    "vit_b_16": {
+      "grayscale": {
+        "samples": 500,
+        "mean": 0.7392415404319763,
+        "standard_deviation": 0.1260341852903366,
+        "median": 0.7543910145759583,
+        "minimum": 0.16729585826396942,
+        "maximum": 1.0000001192092896
+      },
+      "cue conflict": {
+        "samples": 212,
+        "mean": 0.5415191650390625,
+        "standard_deviation": 0.18181419372558594,
+        "median": 0.5629608631134033,
+        "minimum": 0.040969621390104294,
+        "maximum": 0.9288561940193176
+      },
+      "patch shuffle": {
+        "samples": 500,
+        "mean": 0.658488929271698,
+        "standard_deviation": 0.11189975589513779,
+        "median": 0.6671586632728577,
+        "minimum": 0.19610048830509186,
+        "maximum": 0.9320332407951355
+      },
+      "translation": {
+        "0": {
+          "average_across_directions": {
+            "samples": 500,
+            "mean": 1.0,
+            "standard_deviation": 0.0,
+            "median": 1.0,
+            "minimum": 1.0,
+            "maximum": 1.0
+          },
+          "directions": {}
+        },
+        "8": {
+          "average_across_directions": {
+            "samples": 2000,
+            "mean": 0.9471184015274048,
+            "standard_deviation": 0.032241303473711014,
+            "median": 0.9535644054412842,
+            "minimum": 0.7615820169448853,
+            "maximum": 0.9920077919960022
+          },
+          "directions": {
+            "up": {
+              "samples": 500,
+              "mean": 0.9448003172874451,
+              "standard_deviation": 0.032394889742136,
+              "median": 0.9507266283035278,
+              "minimum": 0.7615820169448853,
+              "maximum": 0.9909390211105347
+            },
+            "down": {
+              "samples": 500,
+              "mean": 0.9447148442268372,
+              "standard_deviation": 0.0319722443819046,
+              "median": 0.9491528272628784,
+              "minimum": 0.7751944065093994,
+              "maximum": 0.9917590022087097
+            },
+            "left": {
+              "samples": 500,
+              "mean": 0.950012743473053,
+              "standard_deviation": 0.03170387074351311,
+              "median": 0.9577046036720276,
+              "minimum": 0.762239933013916,
+              "maximum": 0.9920077919960022
+            },
+            "right": {
+              "samples": 500,
+              "mean": 0.9489455223083496,
+              "standard_deviation": 0.03253231570124626,
+              "median": 0.9576328992843628,
+              "minimum": 0.7785404920578003,
+              "maximum": 0.9918672442436218
+            }
+          }
+        },
+        "16": {
+          "average_across_directions": {
+            "samples": 2000,
+            "mean": 0.9743197560310364,
+            "standard_deviation": 0.025606008246541023,
+            "median": 0.9820987582206726,
+            "minimum": 0.7631046772003174,
+            "maximum": 0.9996262788772583
+          },
+          "directions": {
+            "up": {
+              "samples": 500,
+              "mean": 0.9744415283203125,
+              "standard_deviation": 0.024583568796515465,
+              "median": 0.9822558760643005,
+              "minimum": 0.8469508290290833,
+              "maximum": 0.9994288682937622
+            },
+            "down": {
+              "samples": 500,
+              "mean": 0.971661388874054,
+              "standard_deviation": 0.0301969014108181,
+              "median": 0.9815216064453125,
+              "minimum": 0.7631046772003174,
+              "maximum": 0.9995380640029907
+            },
+            "left": {
+              "samples": 500,
+              "mean": 0.9760960936546326,
+              "standard_deviation": 0.02163751795887947,
+              "median": 0.981942355632782,
+              "minimum": 0.8399291038513184,
+              "maximum": 0.9996262788772583
+            },
+            "right": {
+              "samples": 500,
+              "mean": 0.9750801920890808,
+              "standard_deviation": 0.025049328804016113,
+              "median": 0.9821563959121704,
+              "minimum": 0.79279625415802,
+              "maximum": 0.9995827078819275
+            }
+          }
+        },
+        "32": {
+          "average_across_directions": {
+            "samples": 2000,
+            "mean": 0.9417605400085449,
+            "standard_deviation": 0.04763730615377426,
+            "median": 0.9552500247955322,
+            "minimum": 0.5782071352005005,
+            "maximum": 0.9988031387329102
+          },
+          "directions": {
+            "up": {
+              "samples": 500,
+              "mean": 0.9370504021644592,
+              "standard_deviation": 0.05242988467216492,
+              "median": 0.953955352306366,
+              "minimum": 0.6640759706497192,
+              "maximum": 0.9985729455947876
+            },
+            "down": {
+              "samples": 500,
+              "mean": 0.9336162805557251,
+              "standard_deviation": 0.054189283400774,
+              "median": 0.9499640464782715,
+              "minimum": 0.5782071352005005,
+              "maximum": 0.9986313581466675
+            },
+            "left": {
+              "samples": 500,
+              "mean": 0.947864294052124,
+              "standard_deviation": 0.040286239236593246,
+              "median": 0.9563490748405457,
+              "minimum": 0.7389717698097229,
+              "maximum": 0.9988031387329102
+            },
+            "right": {
+              "samples": 500,
+              "mean": 0.9485114216804504,
+              "standard_deviation": 0.039969418197870255,
+              "median": 0.9576071500778198,
+              "minimum": 0.7549001574516296,
+              "maximum": 0.9987174272537231
+            }
+          }
+        }
+      }
+    },
+    "clip_vit_b_32": {
+      "grayscale": {
+        "samples": 500,
+        "mean": 0.8989638686180115,
+        "standard_deviation": 0.03920166194438934,
+        "median": 0.9042391777038574,
+        "minimum": 0.6796920299530029,
+        "maximum": 1.000000238418579
+      },
+      "cue conflict": {
+        "samples": 212,
+        "mean": 0.7787084579467773,
+        "standard_deviation": 0.07947975397109985,
+        "median": 0.7908176779747009,
+        "minimum": 0.47631460428237915,
+        "maximum": 0.9133911728858948
+      },
+      "patch shuffle": {
+        "samples": 500,
+        "mean": 0.7291757464408875,
+        "standard_deviation": 0.06379906088113785,
+        "median": 0.7346575260162354,
+        "minimum": 0.4446057081222534,
+        "maximum": 0.8634263873100281
+      },
+      "translation": {
+        "0": {
+          "average_across_directions": {
+            "samples": 500,
+            "mean": 1.0,
+            "standard_deviation": 0.0,
+            "median": 1.0,
+            "minimum": 1.0,
+            "maximum": 1.0
+          },
+          "directions": {}
+        },
+        "8": {
+          "average_across_directions": {
+            "samples": 2000,
+            "mean": 0.9810140132904053,
+            "standard_deviation": 0.010666844435036182,
+            "median": 0.9835314750671387,
+            "minimum": 0.9147722721099854,
+            "maximum": 0.9973215460777283
+          },
+          "directions": {
+            "up": {
+              "samples": 500,
+              "mean": 0.9810688495635986,
+              "standard_deviation": 0.010175555013120174,
+              "median": 0.9831180572509766,
+              "minimum": 0.915212869644165,
+              "maximum": 0.9963231086730957
+            },
+            "down": {
+              "samples": 500,
+              "mean": 0.981246829032898,
+              "standard_deviation": 0.009478786960244179,
+              "median": 0.9831374883651733,
+              "minimum": 0.932005763053894,
+              "maximum": 0.9966443777084351
+            },
+            "left": {
+              "samples": 500,
+              "mean": 0.9810112118721008,
+              "standard_deviation": 0.011389539577066898,
+              "median": 0.9841026067733765,
+              "minimum": 0.9150015115737915,
+              "maximum": 0.9958183169364929
+            },
+            "right": {
+              "samples": 500,
+              "mean": 0.9807290434837341,
+              "standard_deviation": 0.011483768001198769,
+              "median": 0.9836220741271973,
+              "minimum": 0.9147722721099854,
+              "maximum": 0.9973215460777283
+            }
+          }
+        },
+        "16": {
+          "average_across_directions": {
+            "samples": 2000,
+            "mean": 0.9679674506187439,
+            "standard_deviation": 0.01798108033835888,
+            "median": 0.971858024597168,
+            "minimum": 0.8174939155578613,
+            "maximum": 0.994354784488678
+          },
+          "directions": {
+            "up": {
+              "samples": 500,
+              "mean": 0.9701083898544312,
+              "standard_deviation": 0.014574019238352776,
+              "median": 0.9728749990463257,
+              "minimum": 0.9022583961486816,
+              "maximum": 0.9934303760528564
+            },
+            "down": {
+              "samples": 500,
+              "mean": 0.971588671207428,
+              "standard_deviation": 0.013823489658534527,
+              "median": 0.9736634492874146,
+              "minimum": 0.8988593816757202,
+              "maximum": 0.9931777715682983
+            },
+            "left": {
+              "samples": 500,
+              "mean": 0.9651649594306946,
+              "standard_deviation": 0.020516397431492805,
+              "median": 0.9698353409767151,
+              "minimum": 0.8174939155578613,
+              "maximum": 0.9926893711090088
+            },
+            "right": {
+              "samples": 500,
+              "mean": 0.9650076627731323,
+              "standard_deviation": 0.020845921710133553,
+              "median": 0.9695325493812561,
+              "minimum": 0.8639964461326599,
+              "maximum": 0.994354784488678
+            }
+          }
+        },
+        "32": {
+          "average_across_directions": {
+            "samples": 2000,
+            "mean": 0.9699154496192932,
+            "standard_deviation": 0.0203790832310915,
+            "median": 0.9745354652404785,
+            "minimum": 0.7829712629318237,
+            "maximum": 0.9986148476600647
+          },
+          "directions": {
+            "up": {
+              "samples": 500,
+              "mean": 0.9742710590362549,
+              "standard_deviation": 0.018336113542318344,
+              "median": 0.9785751104354858,
+              "minimum": 0.8594704866409302,
+              "maximum": 0.9984873533248901
+            },
+            "down": {
+              "samples": 500,
+              "mean": 0.9758046865463257,
+              "standard_deviation": 0.015819773077964783,
+              "median": 0.979248046875,
+              "minimum": 0.8797308206558228,
+              "maximum": 0.9980294108390808
+            },
+            "left": {
+              "samples": 500,
+              "mean": 0.96487957239151,
+              "standard_deviation": 0.022196894511580467,
+              "median": 0.969292402267456,
+              "minimum": 0.7829712629318237,
+              "maximum": 0.9982354640960693
+            },
+            "right": {
+              "samples": 500,
+              "mean": 0.9647066593170166,
+              "standard_deviation": 0.021815190091729164,
+              "median": 0.9686411023139954,
+              "minimum": 0.8498377799987793,
+              "maximum": 0.9986148476600647
+            }
+          }
+        }
+      }
+    }
+  }
+}

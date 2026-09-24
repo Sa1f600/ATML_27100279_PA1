@@ -1,0 +1,14 @@
+{
+  "method": "t-SNE",
+  "seed": 6304,
+  "perplexity": 30,
+  "iterations": 1000,
+  "preprocessing": "l2 normalization followed by joint 50-component PCA",
+  "conditions": [
+    "grayscale",
+    "cue conflict",
+    "translation 32px right",
+    "patch shuffle"
+  ],
+  "note": "each panel fits one projection to combined clean and transformed features"
+}

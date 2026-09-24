@@ -1,0 +1,28 @@
+{
+  "resnet50_head": {
+    "top1_accuracy": 0.9739999771118164,
+    "macro_f1": 0.9740935821902383,
+    "mean_maximum_confidence": 0.8871801495552063,
+    "best_epoch": 10,
+    "best_validation_accuracy": 0.9729999899864197
+  },
+  "vit_b_16_head": {
+    "top1_accuracy": 0.9779999852180481,
+    "macro_f1": 0.9779175672669307,
+    "mean_maximum_confidence": 0.9418569803237915,
+    "best_epoch": 10,
+    "best_validation_accuracy": 0.9750000238418579
+  },
+  "clip_vit_b_32_head": {
+    "top1_accuracy": 0.984000027179718,
+    "macro_f1": 0.9840160592639411,
+    "mean_maximum_confidence": 0.22401387989521027,
+    "best_epoch": 10,
+    "best_validation_accuracy": 0.9779999852180481
+  },
+  "clip_zero_shot": {
+    "top1_accuracy": 0.9800000190734863,
+    "macro_f1": 0.9798839921143818,
+    "mean_maximum_confidence": 0.9547560214996338
+  }
+}

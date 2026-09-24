@@ -1,0 +1,32 @@
+# raw datasets
+/data/
+
+# generated features, predictions, and checkpoints
+*.pt
+*.pth
+*.safetensors
+
+# large generated cue-conflict collections
+task1/results/cue_conflicts/candidates/
+task1/results/cue_conflicts/review/
+
+# external repositories and model weights
+task1/external/
+
+# backup archives
+*.zip
+*.tar
+*.tar.gz
+
+# python and notebook caches
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.pyc
+
+# temporary and local application files
+/tmp/
+.codex/
+.DS_Store
+
+# assignment handout
+ATML-PA1.pdf

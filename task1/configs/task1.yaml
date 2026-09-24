@@ -1,0 +1,15 @@
+seed: 6304
+dataset: stl10
+image_size: 224
+
+training:
+  epochs: 50
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  early_stopping_patience: 5
+
+evaluation:
+  test_samples_per_class: 50
+  hue_rotation: 0.25
+  translation_pixels: [0, 8, 16, 32]
+  patch_grid: [4, 4]

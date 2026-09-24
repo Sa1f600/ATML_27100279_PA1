@@ -1,0 +1,29 @@
+{
+  "seed": 6304,
+  "alpha": 0.8,
+  "candidates_per_direction": 25,
+  "class_pairs": [
+    [
+      "airplane",
+      "ship"
+    ],
+    [
+      "car",
+      "truck"
+    ],
+    [
+      "cat",
+      "dog"
+    ],
+    [
+      "deer",
+      "horse"
+    ],
+    [
+      "bird",
+      "monkey"
+    ]
+  ],
+  "total_candidates": 250,
+  "adain_source": "https://github.com/naoto0804/pytorch-AdaIN"
+}

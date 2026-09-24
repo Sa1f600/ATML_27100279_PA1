@@ -1,0 +1,41 @@
+{
+  "accepted_images": 212,
+  "results": {
+    "resnet50_head": {
+      "total": 212,
+      "shape_count": 161,
+      "texture_count": 33,
+      "other_count": 18,
+      "shape_bias": 0.8298969072164949,
+      "coverage": 0.9150943396226415,
+      "mean_maximum_confidence": 0.7942172288894653
+    },
+    "vit_b_16_head": {
+      "total": 212,
+      "shape_count": 181,
+      "texture_count": 12,
+      "other_count": 19,
+      "shape_bias": 0.9378238341968912,
+      "coverage": 0.910377358490566,
+      "mean_maximum_confidence": 0.8500039577484131
+    },
+    "clip_vit_b_32_head": {
+      "total": 212,
+      "shape_count": 191,
+      "texture_count": 8,
+      "other_count": 13,
+      "shape_bias": 0.9597989949748744,
+      "coverage": 0.9386792452830188,
+      "mean_maximum_confidence": 0.18820586800575256
+    },
+    "clip_zero_shot": {
+      "total": 212,
+      "shape_count": 190,
+      "texture_count": 8,
+      "other_count": 14,
+      "shape_bias": 0.9595959595959596,
+      "coverage": 0.9339622641509434,
+      "mean_maximum_confidence": 0.8661928176879883
+    }
+  }
+}

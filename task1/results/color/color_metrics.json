@@ -1,0 +1,76 @@
+{
+  "settings": {
+    "hue_factor": 0.25,
+    "test_images": 500
+  },
+  "results": {
+    "grayscale": {
+      "resnet50_head": {
+        "clean_accuracy": 0.9739999771118164,
+        "accuracy": 0.9580000042915344,
+        "accuracy_change": -0.015999972820281982,
+        "prediction_consistency": 0.9639999866485596,
+        "macro_f1": 0.957792058317286,
+        "mean_maximum_confidence": 0.8946729898452759
+      },
+      "vit_b_16_head": {
+        "clean_accuracy": 0.9779999852180481,
+        "accuracy": 0.9580000042915344,
+        "accuracy_change": -0.019999980926513672,
+        "prediction_consistency": 0.9580000042915344,
+        "macro_f1": 0.9579631958238373,
+        "mean_maximum_confidence": 0.9320804476737976
+      },
+      "clip_vit_b_32_head": {
+        "clean_accuracy": 0.984000027179718,
+        "accuracy": 0.9620000123977661,
+        "accuracy_change": -0.022000014781951904,
+        "prediction_consistency": 0.9679999947547913,
+        "macro_f1": 0.9620942186674629,
+        "mean_maximum_confidence": 0.21028833091259003
+      },
+      "clip_zero_shot": {
+        "clean_accuracy": 0.9800000190734863,
+        "accuracy": 0.9700000286102295,
+        "accuracy_change": -0.009999990463256836,
+        "prediction_consistency": 0.972000002861023,
+        "macro_f1": 0.9698000882357014,
+        "mean_maximum_confidence": 0.9370614886283875
+      }
+    },
+    "hue_rotation": {
+      "resnet50_head": {
+        "clean_accuracy": 0.9739999771118164,
+        "accuracy": 0.9279999732971191,
+        "accuracy_change": -0.046000003814697266,
+        "prediction_consistency": 0.9380000233650208,
+        "macro_f1": 0.9277903363738818,
+        "mean_maximum_confidence": 0.8786640167236328
+      },
+      "vit_b_16_head": {
+        "clean_accuracy": 0.9779999852180481,
+        "accuracy": 0.9440000057220459,
+        "accuracy_change": -0.0339999794960022,
+        "prediction_consistency": 0.949999988079071,
+        "macro_f1": 0.9439926932050391,
+        "mean_maximum_confidence": 0.9042181968688965
+      },
+      "clip_vit_b_32_head": {
+        "clean_accuracy": 0.984000027179718,
+        "accuracy": 0.9620000123977661,
+        "accuracy_change": -0.022000014781951904,
+        "prediction_consistency": 0.9679999947547913,
+        "macro_f1": 0.9619133925022215,
+        "mean_maximum_confidence": 0.20518435537815094
+      },
+      "clip_zero_shot": {
+        "clean_accuracy": 0.9800000190734863,
+        "accuracy": 0.9520000219345093,
+        "accuracy_change": -0.02799999713897705,
+        "prediction_consistency": 0.9620000123977661,
+        "macro_f1": 0.9514087742323036,
+        "mean_maximum_confidence": 0.9270909428596497
+      }
+    }
+  }
+}
