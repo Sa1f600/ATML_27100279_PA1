@@ -1,0 +1,81 @@
+{
+  "runs": {
+    "erm": {
+      "seed": 6304,
+      "max_epochs": 30,
+      "patience": 5,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "source_batch_size": 8,
+      "eval_batch_size": 64,
+      "workers": 2,
+      "method": "erm"
+    },
+    "dan_dg": {
+      "seed": 6304,
+      "max_epochs": 30,
+      "patience": 5,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "source_batch_size": 8,
+      "eval_batch_size": 64,
+      "workers": 2,
+      "method": "dan_dg",
+      "mmd_weight": 1.0
+    },
+    "sam": {
+      "seed": 6304,
+      "max_epochs": 30,
+      "patience": 5,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "source_batch_size": 8,
+      "eval_batch_size": 64,
+      "workers": 2,
+      "method": "sam",
+      "radius": 0.05
+    },
+    "sam_rho_0.01": {
+      "seed": 6304,
+      "max_epochs": 30,
+      "patience": 5,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "source_batch_size": 8,
+      "eval_batch_size": 64,
+      "workers": 2,
+      "method": "sam",
+      "radius": 0.01
+    },
+    "sam_rho_0.1": {
+      "seed": 6304,
+      "max_epochs": 30,
+      "patience": 5,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001,
+      "source_batch_size": 8,
+      "eval_batch_size": 64,
+      "workers": 2,
+      "method": "sam",
+      "radius": 0.1
+    }
+  },
+  "hypothesis": "Increasing SAM radius is expected to reduce the common local sharpness proxy, but a large radius may reduce source accuracy; Sketch recognition may be non-monotonic. The three prescribed radii are fixed before training. Source validation alone selects checkpoints, and the main SAM radius remains 0.05.",
+  "code_sha256": "ccddc3c425eaf18b6ff5d4d9c95849ecc36f968d9e0bcff8f61c731d959995ff",
+  "split_sha256": "19b237e46b7a90a76d0e34b6d63c7ab56ea0f1288faf4475651b28734eb9c868",
+  "erm_checkpoint_sha256": "d3948a5b60e454ddcd41e703833fee2c631784c6bd9e847c452d78f63822923c",
+  "selection": "mean source-validation macro-F1; strict improvement; earliest tie",
+  "source_epoch": "ceil(total source training images / 24) balanced updates",
+  "study": "SAM radius 0.01, 0.05, 0.1; fixed independently of task 2 target results",
+  "sharpness": {
+    "radius": 0.05,
+    "per_domain": 32,
+    "seed": 6304
+  },
+  "probe": {
+    "C": 1,
+    "train_fraction": 0.7,
+    "standardized": true,
+    "seed": 6304
+  }
+}

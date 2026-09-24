@@ -1,0 +1,15 @@
+task3_method,task2_method,class,task3_accuracy,task2_accuracy,difference_pp
+erm,source_only,dog,0.13730569948186527,0.13730569948186527,0.0
+erm,source_only,elephant,0.9662162162162162,0.9662162162162162,0.0
+erm,source_only,giraffe,0.9110225763612217,0.9110225763612217,0.0
+erm,source_only,guitar,0.8289473684210527,0.8289473684210527,0.0
+erm,source_only,horse,0.5698529411764706,0.5698529411764706,0.0
+erm,source_only,house,0.9625,0.9625,0.0
+erm,source_only,person,0.23125,0.23125,0.0
+dan_dg,dan,dog,0.0,0.0,0.0
+dan_dg,dan,elephant,0.0,0.0,0.0
+dan_dg,dan,giraffe,0.0,0.0,0.0
+dan_dg,dan,guitar,0.0,0.5197368421052632,-51.973684210526315
+dan_dg,dan,horse,0.0,0.0,0.0
+dan_dg,dan,house,0.0,1.0,-100.0
+dan_dg,dan,person,1.0,0.0,100.0

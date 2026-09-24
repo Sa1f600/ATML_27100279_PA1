@@ -17,3 +17,7 @@ Task 2 now includes all four UDA methods and a controlled DAN strength study.
 See [the Task 2 README](task2/README.md) and open
 [the Colab notebook](task2/colab_task2.ipynb) to run all Task 2 experiments.
 The `shared/` folder contains the reusable PACS protocol for Tasks 2 and 3.
+
+Task 3 reuses the Task 2 ERM checkpoint and trains source-only DAN-DG and SAM.
+See [the Task 3 README](task3/README.md) and
+[the Task 3 Colab notebook](task3/colab_task3.ipynb).

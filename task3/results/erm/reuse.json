@@ -1,0 +1,7 @@
+{
+  "source": "/content/task2_local_results/source_only",
+  "checkpoint_sha256": "d3948a5b60e454ddcd41e703833fee2c631784c6bd9e847c452d78f63822923c",
+  "retrained": false,
+  "task3_name": "erm",
+  "original_method": "source_only"
+}

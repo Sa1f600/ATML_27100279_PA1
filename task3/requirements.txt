@@ -1,0 +1,9 @@
+torch>=2.2
+torchvision>=0.17
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+Pillow>=10
+PyYAML>=6
+tqdm>=4.66
+gdown>=5.2
