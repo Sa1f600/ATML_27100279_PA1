@@ -1,0 +1,14 @@
+{
+  "seed": 6304,
+  "max_epochs": 30,
+  "patience": 5,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "source_batch_size": 8,
+  "target_batch_size": 24,
+  "eval_batch_size": 64,
+  "workers": 2,
+  "mmd_weight": 1.0,
+  "max_grl": 1.0,
+  "method": "cdan"
+}

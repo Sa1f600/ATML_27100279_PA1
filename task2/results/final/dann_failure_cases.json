@@ -1,0 +1,401 @@
+[
+  {
+    "kind": "failure",
+    "path": "sketch/dog/5281.png",
+    "true_class": "dog",
+    "predicted_class": "person",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/dog/5282.png",
+    "true_class": "dog",
+    "predicted_class": "person",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/dog/5283.png",
+    "true_class": "dog",
+    "predicted_class": "person",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/dog/5285.png",
+    "true_class": "dog",
+    "predicted_class": "dog",
+    "source_only_prediction": "person"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/dog/n02103406_1138-4.png",
+    "true_class": "dog",
+    "predicted_class": "dog",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/dog/n02103406_2706-1.png",
+    "true_class": "dog",
+    "predicted_class": "dog",
+    "source_only_prediction": "house"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/dog/5309.png",
+    "true_class": "dog",
+    "predicted_class": "person",
+    "source_only_prediction": "dog"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/dog/5312.png",
+    "true_class": "dog",
+    "predicted_class": "person",
+    "source_only_prediction": "dog"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/dog/5322.png",
+    "true_class": "dog",
+    "predicted_class": "elephant",
+    "source_only_prediction": "dog"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/elephant/5921.png",
+    "true_class": "elephant",
+    "predicted_class": "person",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/elephant/5922.png",
+    "true_class": "elephant",
+    "predicted_class": "guitar",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/elephant/5923.png",
+    "true_class": "elephant",
+    "predicted_class": "person",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/elephant/n02503517_10036-4.png",
+    "true_class": "elephant",
+    "predicted_class": "elephant",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/elephant/n02503517_3808-4.png",
+    "true_class": "elephant",
+    "predicted_class": "elephant",
+    "source_only_prediction": "dog"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/elephant/n02503517_5418-9.png",
+    "true_class": "elephant",
+    "predicted_class": "elephant",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/elephant/5921.png",
+    "true_class": "elephant",
+    "predicted_class": "person",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/elephant/5922.png",
+    "true_class": "elephant",
+    "predicted_class": "guitar",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/elephant/5923.png",
+    "true_class": "elephant",
+    "predicted_class": "person",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/giraffe/7361.png",
+    "true_class": "giraffe",
+    "predicted_class": "guitar",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/giraffe/7362.png",
+    "true_class": "giraffe",
+    "predicted_class": "person",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/giraffe/7363.png",
+    "true_class": "giraffe",
+    "predicted_class": "person",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/giraffe/n02439033_991-3.png",
+    "true_class": "giraffe",
+    "predicted_class": "giraffe",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/giraffe/7361.png",
+    "true_class": "giraffe",
+    "predicted_class": "guitar",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/giraffe/7362.png",
+    "true_class": "giraffe",
+    "predicted_class": "person",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/giraffe/7363.png",
+    "true_class": "giraffe",
+    "predicted_class": "person",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/guitar/7601.png",
+    "true_class": "guitar",
+    "predicted_class": "person",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/guitar/7602.png",
+    "true_class": "guitar",
+    "predicted_class": "person",
+    "source_only_prediction": "guitar"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/guitar/7604.png",
+    "true_class": "guitar",
+    "predicted_class": "person",
+    "source_only_prediction": "guitar"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/guitar/n02676566_12344-4.png",
+    "true_class": "guitar",
+    "predicted_class": "guitar",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/guitar/n02676566_4058-6.png",
+    "true_class": "guitar",
+    "predicted_class": "guitar",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/guitar/n02676566_4605-4.png",
+    "true_class": "guitar",
+    "predicted_class": "guitar",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/guitar/7602.png",
+    "true_class": "guitar",
+    "predicted_class": "person",
+    "source_only_prediction": "guitar"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/guitar/7604.png",
+    "true_class": "guitar",
+    "predicted_class": "person",
+    "source_only_prediction": "guitar"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/guitar/7605.png",
+    "true_class": "guitar",
+    "predicted_class": "person",
+    "source_only_prediction": "guitar"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/horse/8481.png",
+    "true_class": "horse",
+    "predicted_class": "person",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/horse/8482.png",
+    "true_class": "horse",
+    "predicted_class": "person",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/horse/8483.png",
+    "true_class": "horse",
+    "predicted_class": "guitar",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/horse/n02374451_18570-3.png",
+    "true_class": "horse",
+    "predicted_class": "horse",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/horse/n02374451_2372-4.png",
+    "true_class": "horse",
+    "predicted_class": "horse",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/horse/8484.png",
+    "true_class": "horse",
+    "predicted_class": "person",
+    "source_only_prediction": "horse"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/horse/8485.png",
+    "true_class": "horse",
+    "predicted_class": "elephant",
+    "source_only_prediction": "horse"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/horse/8486.png",
+    "true_class": "horse",
+    "predicted_class": "person",
+    "source_only_prediction": "horse"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/house/8801.png",
+    "true_class": "house",
+    "predicted_class": "elephant",
+    "source_only_prediction": "house"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/house/8803.png",
+    "true_class": "house",
+    "predicted_class": "elephant",
+    "source_only_prediction": "house"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/house/8804.png",
+    "true_class": "house",
+    "predicted_class": "elephant",
+    "source_only_prediction": "house"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/house/8801.png",
+    "true_class": "house",
+    "predicted_class": "elephant",
+    "source_only_prediction": "house"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/house/8803.png",
+    "true_class": "house",
+    "predicted_class": "elephant",
+    "source_only_prediction": "house"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/house/8804.png",
+    "true_class": "house",
+    "predicted_class": "elephant",
+    "source_only_prediction": "house"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/person/12082.png",
+    "true_class": "person",
+    "predicted_class": "guitar",
+    "source_only_prediction": "elephant"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/person/12086.png",
+    "true_class": "person",
+    "predicted_class": "guitar",
+    "source_only_prediction": "person"
+  },
+  {
+    "kind": "failure",
+    "path": "sketch/person/12088.png",
+    "true_class": "person",
+    "predicted_class": "guitar",
+    "source_only_prediction": "house"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/person/12081.png",
+    "true_class": "person",
+    "predicted_class": "person",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/person/12083.png",
+    "true_class": "person",
+    "predicted_class": "person",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "gained",
+    "path": "sketch/person/12084.png",
+    "true_class": "person",
+    "predicted_class": "person",
+    "source_only_prediction": "giraffe"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/person/12086.png",
+    "true_class": "person",
+    "predicted_class": "guitar",
+    "source_only_prediction": "person"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/person/12106.png",
+    "true_class": "person",
+    "predicted_class": "guitar",
+    "source_only_prediction": "person"
+  },
+  {
+    "kind": "lost",
+    "path": "sketch/person/12131.png",
+    "true_class": "person",
+    "predicted_class": "elephant",
+    "source_only_prediction": "person"
+  }
+]

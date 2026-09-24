@@ -1,0 +1,7 @@
+{
+  "best_source_macro_f1": 0.8668772858408014,
+  "epochs_run": 6,
+  "steps_per_epoch": 203,
+  "seconds": 259.55622816085815,
+  "checkpoint_sha256": "c0b5e18b72dfd676793ecb9b2f7696196a3ae41347f4bb93e504c84d75094cdf"
+}

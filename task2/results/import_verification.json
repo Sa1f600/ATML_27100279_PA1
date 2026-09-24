@@ -1,0 +1,69 @@
+{
+  "archive_sha256": "0b2ac2c6deac70b032da59a05077182dd7f9a13da1a5fae96db333a23756fb81",
+  "files_imported": 62,
+  "source_counts": {
+    "photo": {
+      "train": 1336,
+      "val": 334
+    },
+    "art_painting": {
+      "train": 1638,
+      "val": 410
+    },
+    "cartoon": {
+      "train": 1875,
+      "val": 469
+    }
+  },
+  "target_count": 3929,
+  "checks": "archive CRCs, split/plan/lock hashes, disjoint splits, configs, source-only checkpoint selection, finite histories, confusion-matrix metrics",
+  "runs": [
+    {
+      "run": "source_only",
+      "epochs_run": 8,
+      "selected_epoch": 3,
+      "source_macro_f1": 0.9254501629553692,
+      "target_accuracy": 0.6592008144566047
+    },
+    {
+      "run": "dan",
+      "epochs_run": 7,
+      "selected_epoch": 2,
+      "source_macro_f1": 0.14847784551412044,
+      "target_accuracy": 0.1007890048358361
+    },
+    {
+      "run": "dann",
+      "epochs_run": 22,
+      "selected_epoch": 17,
+      "source_macro_f1": 0.3430699286603696,
+      "target_accuracy": 0.20259608042758973
+    },
+    {
+      "run": "cdan",
+      "epochs_run": 6,
+      "selected_epoch": 1,
+      "source_macro_f1": 0.8668772858408014,
+      "target_accuracy": 0.6266225502672436
+    },
+    {
+      "run": "dan_lambda_0.1",
+      "epochs_run": 8,
+      "selected_epoch": 3,
+      "source_macro_f1": 0.9445764767461374,
+      "target_accuracy": 0.7564265716467294
+    },
+    {
+      "run": "dan_lambda_10",
+      "epochs_run": 6,
+      "selected_epoch": 1,
+      "source_macro_f1": 0.05066996495567924,
+      "target_accuracy": 0.04072283023670145
+    }
+  ],
+  "checkpoints_and_features_in_bundle": false,
+  "training_code_sha256": "6f04ba4c731dd19544473808af1841a786559cd52ea14053f863d850a986e580",
+  "current_code_sha256": "3c8eedb77a555a92f5a827a5d46051ca17923eb6a4f4778e6cf9efc760024124",
+  "code_note": "local downloader gained a mirror fallback after the Colab upload; original experiment metadata is preserved unchanged",
+  "limits": "checkpoint bytes and feature arrays remain on Google Drive and were not independently checked here"
+}

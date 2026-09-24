@@ -30,3 +30,7 @@ task1/external/
 
 # assignment handout
 ATML-PA1.pdf
+
+# task 2 feature caches and temporary checkpoints
+task2/results/**/*.npz
+task2/results/**/*.tmp
