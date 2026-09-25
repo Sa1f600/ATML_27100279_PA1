@@ -1,0 +1,14 @@
+{
+  "checkpoint_lock_sha256": "7cacca7b61e08e56dc504632046c60088bd55eb1b012aab25fd157ecacc5d6be",
+  "files": {
+    "vanilla_test.npz": "387b7e09bd632501d041adfdd2ee05fcf4570cad4c8b563c65c1e78bcc95b25e",
+    "vanilla_near.npz": "3c753c75bb949f8655c54316a2a5798bfca88abc6a9aa5e14dfa855bdd3cfb40",
+    "vanilla_far.npz": "106d60920e1fbd08f2a9327f5ffd86e05f543cdcc829efbe1149cc27895e0bee",
+    "gcsc_test.npz": "fefcec853284aeb73a53b1d1633d4581bfe5ba0fab6d6733696e2439e5370372",
+    "gcsc_near.npz": "63577071c6a9023906a8537af0bf4ffbd57bf2ef97f34dc5dd2af0104cee0a63",
+    "gcsc_far.npz": "ed5e67f192d58b2a9788f9ddc61012cdcc74431f10ac0d87f8a614696f03bdf6",
+    "proser_test.npz": "56d8d493651e1f1af5d0b9680744c12d57ca62ced16d2ea0f72a77f4f521fe5e",
+    "proser_near.npz": "a34b61002aed12c5c79dbe242ba2c4ab971cecbaff2dcea8a9016f589a0db372",
+    "proser_far.npz": "3a313c3b698d69460826a5afb1691186dc83cbebb54cd4d25f6b7cf6265b4551"
+  }
+}

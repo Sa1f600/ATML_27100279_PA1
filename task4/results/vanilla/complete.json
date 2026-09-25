@@ -1,0 +1,7 @@
+{
+  "epochs": 100,
+  "selected_epoch": 97,
+  "validation_accuracy": 0.9522,
+  "checkpoint_sha256": "7442e346eb525d410572263ad2ae370d0efec507443b58a5e1339b83f371f018",
+  "seconds": 4368.081823825836
+}

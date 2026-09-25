@@ -38,3 +38,11 @@ task2/results/**/*.tmp
 # task 3 feature caches and temporary checkpoints
 task3/results/**/*.npz
 task3/results/**/*.tmp
+
+# task 4 feature caches and temporary checkpoints
+task4/cache/**/*.npz
+task4/cache/*.npz
+task4/results/**/*.npz
+task4/results/*.npz
+task4/results/**/*.tmp
+task4/cache/**/*.tmp

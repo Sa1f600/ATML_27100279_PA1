@@ -1,0 +1,9 @@
+{
+  "checkpoint_lock_sha256": "7cacca7b61e08e56dc504632046c60088bd55eb1b012aab25fd157ecacc5d6be",
+  "files": {
+    "vanilla_train.npz": "4fb87cae79c753f5e99f56332017b9ebcc54dcf929dcfee0fbd07c1d5cd4b19f",
+    "vanilla_val.npz": "04fc01c38b9ea5afd0e12e925ecda5b60e4028ee46a08c65aa84e49a5ae28b1d",
+    "gcsc_val.npz": "2bb4dfe7606fb47113d104d141abcbbe1c5e3a51d603608a4a3962e4933f5ebf",
+    "proser_val.npz": "2343a790ee82ec0b46380ac89287565955599f2e1877cb49ffab87aa3169b401"
+  }
+}

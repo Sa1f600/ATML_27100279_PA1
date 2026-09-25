@@ -1,0 +1,10 @@
+{
+  "near": {
+    "false_acceptances": 534,
+    "shown": 3
+  },
+  "far": {
+    "false_acceptances": 396,
+    "shown": 3
+  }
+}

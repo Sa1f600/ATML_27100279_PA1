@@ -1,0 +1,68 @@
+{
+  "runs": {
+    "vanilla": {
+      "seed": 6304,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "momentum": 0.9,
+      "weight_decay": 0.0005,
+      "batch_size": 128,
+      "eval_batch_size": 256,
+      "workers": 2,
+      "method": "vanilla"
+    },
+    "gcsc": {
+      "seed": 6304,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "momentum": 0.9,
+      "weight_decay": 0.0005,
+      "batch_size": 128,
+      "eval_batch_size": 256,
+      "workers": 2,
+      "method": "gcsc"
+    },
+    "proser": {
+      "seed": 6304,
+      "epochs": 50,
+      "learning_rate": 0.001,
+      "momentum": 0.9,
+      "weight_decay": 0.0005,
+      "batch_size": 128,
+      "eval_batch_size": 256,
+      "workers": 2,
+      "dummy_count": 5,
+      "beta": 1.0,
+      "gamma": 0.1,
+      "mixup_alpha": 2.0,
+      "method": "proser"
+    }
+  },
+  "code_sha256": "6557dd87d193893238768c9374158c210ef1862478a7d9db7a0ee3817f78bc9e",
+  "split_sha256": "59ebf66ff6aaa3a026f961a08bdae0caa3f1edd7cbc73ca2ad6f9ae2c598ca0b",
+  "selection": "maximum known validation accuracy; earliest tied epoch",
+  "near_classes": [
+    "bus",
+    "pickup_truck",
+    "motorcycle",
+    "tractor",
+    "wolf",
+    "fox",
+    "leopard",
+    "camel"
+  ],
+  "far_classes": [
+    "bottle",
+    "bowl",
+    "chair",
+    "clock",
+    "keyboard",
+    "mushroom",
+    "sunflower",
+    "wardrobe"
+  ],
+  "unknown_partition": "CIFAR100 test only",
+  "mahalanobis": "shared within-class diagonal variance / N + 1e-6; unaugmented train",
+  "threshold": "validation 95th percentile, linear; accept score <= threshold",
+  "placeholder": "max dummy; softmax T=1024; bias=0; dummy minus max known probability"
+}

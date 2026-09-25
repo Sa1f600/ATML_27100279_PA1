@@ -1,0 +1,44 @@
+{
+  "scores": {
+    "vanilla/msp": {
+      "threshold": 0.16055656512984337,
+      "validation_acceptance": 0.95,
+      "validation_count": 5000
+    },
+    "vanilla/mls": {
+      "threshold": -5.813921093940735,
+      "validation_acceptance": 0.95,
+      "validation_count": 5000
+    },
+    "vanilla/energy": {
+      "threshold": -5.997370071416013,
+      "validation_acceptance": 0.95,
+      "validation_count": 5000
+    },
+    "vanilla/mahalanobis": {
+      "threshold": 2839.4332325085566,
+      "validation_acceptance": 0.95,
+      "validation_count": 5000
+    },
+    "gcsc/mls": {
+      "threshold": -6.200267696380613,
+      "validation_acceptance": 0.95,
+      "validation_count": 5000
+    },
+    "proser/mls": {
+      "threshold": -4.858671474456787,
+      "validation_acceptance": 0.95,
+      "validation_count": 5000
+    },
+    "proser/placeholder": {
+      "threshold": 6.727093493350336e-05,
+      "validation_acceptance": 0.95,
+      "validation_count": 5000
+    }
+  },
+  "quantile": 0.95,
+  "quantile_method": "linear",
+  "acceptance_rule": "score <= threshold",
+  "placeholder_temperature": 1024.0,
+  "placeholder_bias": 0.0
+}

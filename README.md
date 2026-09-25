@@ -21,3 +21,8 @@ The `shared/` folder contains the reusable PACS protocol for Tasks 2 and 3.
 Task 3 reuses the Task 2 ERM checkpoint and trains source-only DAN-DG and SAM.
 See [the Task 3 README](task3/README.md) and
 [the Task 3 Colab notebook](task3/colab_task3.ipynb).
+
+Task 4 implements Vanilla, GCSC and PROSER with validation-calibrated open-set evaluation.
+See [the Task 4 README](task4/README.md) and
+[the Task 4 Colab notebook](task4/colab_task4.ipynb). Its runner saves resumable checkpoints to Google Drive after each epoch
+and creates report and full-backup archives.

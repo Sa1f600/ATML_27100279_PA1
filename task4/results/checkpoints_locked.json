@@ -1,0 +1,8 @@
+{
+  "plan_sha256": "94b2e81c5a28d84deff797fed24afa57db4df94c8bdd434945e281b7f2741dd6",
+  "checkpoints": {
+    "vanilla": "7442e346eb525d410572263ad2ae370d0efec507443b58a5e1339b83f371f018",
+    "gcsc": "90c3615808a0e57ad3c2b8d80c5748476e2a2ba99c700f8d611503c0c8cd484b",
+    "proser": "917200ffa3779110cea9f0a4745f098f5f987dddc3b8eff6abfdd10a1f365f1d"
+  }
+}
